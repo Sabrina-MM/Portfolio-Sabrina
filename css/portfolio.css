@@ -1,0 +1,218 @@
+:root {
+  --primary-font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
+  --main-btn-bg: #249a99;
+  --main-bg-color: #f9f7fe;
+  --primary-color: rgba(39, 33, 66, 1);
+  --secondary-color: rgba(0, 0, 0, 0.589);
+  --link-hover-color: black;
+}
+.container {
+  padding: 15px 0px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul a {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+}
+nav ul a:hover,
+li .active {
+  color: var(--main-btn-bg) !important;
+}
+nav .logo {
+  max-height: 38px;
+}
+
+.hero {
+  text-align: center;
+  background: var(--main-bg-color);
+  padding: 160px 20px;
+  line-height: 30px;
+}
+.hero p {
+  margin: 0px;
+  font-size: 36px;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.hero h1 {
+  font-size: 90px;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  margin: 0px;
+}
+.hero h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.btn-hero {
+  text-align: center;
+  width: 100%;
+  background: var(--main-btn-bg);
+  padding: 18px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: cornsilk;
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.btn-hero:hover {
+  color: var(--link-hover-color);
+}
+
+.content-hero {
+  padding: 140px 20px;
+}
+
+.content-hero h1 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.content-hero h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.content-hero h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content-hero p {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.content-hero img {
+  border-radius: 1.25rem;
+}
+
+.btn-project-app:hover {
+  color: var(--link-hover-color);
+}
+
+.btn-project-app {
+  border: 1px solid var(--main-btn-bg);
+  text-decoration: none;
+  padding: 12px 20px;
+  color: var(--main-btn-bg);
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+}
+
+.short-introduction {
+  font-family: var(--secondary-font-family);
+  padding: 50px;
+  margin: 0px;
+}
+.main-page div h2 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 50px;
+}
+.main-page div p {
+  line-height: 30px;
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+}
+
+.project-description {
+  padding: 100px 60px;
+}
+
+.content-section {
+  margin: 30px;
+}
+
+footer .contact-box {
+  background: var(--main-bg-color);
+  padding: 30px 120px;
+  border-radius: 20px;
+}
+footer h3 {
+  font-size: 48px;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+}
+footer div p {
+  font-size: 18px;
+}
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--main-btn-bg);
+}
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  background: var(--main-bg-color);
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 21px;
+  color: var(--main-btn-bg);
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--main-btn-bg);
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 70px;
+  }
+  .hero h2 {
+    font-size: 22px;
+  }
+  div h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 23px 20px;
+  }
+  .content-hero {
+    text-align: center;
+    padding: 100px 20px 10px;
+  }
+  footer .email-link {
+    font-size: 18px;
+  }
+  footer .btn-hero {
+    display: flex;
+  }
+}
+@media (max-width: 766px) {
+  .content-hero h1 {
+    font-size: 45px;
+  }
+  .content-hero h2 {
+    font-size: 15px;
+  }
+}
