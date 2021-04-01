@@ -2,7 +2,7 @@
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
   --main-btn-bg: #249a99;
-  --main-bg-color: #f9f7fe;
+  --main-bg-color: #fdd8351e;
   --primary-color: rgba(39, 33, 66, 1);
   --secondary-color: rgba(0, 0, 0, 0.589);
   --link-hover-color: black;
@@ -10,6 +10,7 @@
 .container {
   padding: 15px 0px;
 }
+
 nav ul {
   list-style: none;
 }
@@ -30,10 +31,15 @@ nav .logo {
   max-height: 38px;
 }
 
+div .icon {
+  max-width: 35px;
+}
+
 .hero {
   text-align: center;
   background: var(--main-bg-color);
-  padding: 160px 20px;
+  /*  background: url(/img/background.jpg) top center; */
+  padding: 180px 20px;
   line-height: 30px;
 }
 .hero p {
@@ -98,7 +104,7 @@ nav .logo {
   color: var(--secondary-color);
 }
 .content-hero img {
-  border-radius: 1.25rem;
+  border-radius: 1rem;
 }
 
 .btn-project-app:hover {
@@ -131,9 +137,12 @@ nav .logo {
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
 }
+.main-page .portfolio-img {
+  padding-top: 48px;
+}
 
 .project-description {
-  padding: 100px 60px;
+  padding: 80px 46px;
 }
 
 .content-section {
