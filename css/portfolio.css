@@ -40,7 +40,7 @@ nav .logo {
 
 nav a .linkelin-icon:hover,
 .email-icon:hover {
-  color: #249a99;
+  color: var(--main-btn-bg);
 }
 
 div .icon {
@@ -73,7 +73,6 @@ div .icon {
 .hero h2 {
   font-family: var(--secondary-font-family);
   font-size: 20px;
-  color: var(--secondary-color);
 }
 .btn-hero {
   text-align: center;
@@ -124,7 +123,6 @@ div .icon {
 .content-hero p {
   font-family: var(--secondary-font-family);
   font-size: 15px;
-  color: var(--secondary-color);
 }
 
 .content-hero .skills-icons {
@@ -165,7 +163,6 @@ div .icon {
   line-height: 30px;
   font-size: 16px;
   font-family: var(--secondary-font-family);
-  color: var(--secondary-color);
 }
 .main-page .portfolio-img {
   padding-top: 48px;
@@ -320,6 +317,7 @@ footer .social-links a:hover {
   .content-hero h1 {
     font-size: 34px;
   }
+
   footer .email-link {
     font-size: 18px;
   }
