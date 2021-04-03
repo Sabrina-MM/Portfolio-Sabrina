@@ -54,6 +54,9 @@ div .icon {
   padding: 180px 20px;
   line-height: 30px;
 }
+.hero small {
+  font-family: var(--secondary-font-family);
+}
 .hero p {
   margin: 0px;
   font-size: 30px;
@@ -123,11 +126,7 @@ div .icon {
   font-size: 15px;
   color: var(--secondary-color);
 }
-.content-hero img {
-  border-radius: 0.2rem;
 
-  background: var(--main-bg-color);
-}
 .content-hero .skills-icons {
   transform: rotate(-90deg);
   float: left;
@@ -270,9 +269,12 @@ footer h3 {
   font-family: var(--primary-font-family);
   font-weight: bold;
 }
-footer div p {
+footer div p,
+.second-footer {
   font-size: 18px;
+  font-family: var(--secondary-font-family);
 }
+
 footer .email-link {
   display: flex;
   justify-content: center;
