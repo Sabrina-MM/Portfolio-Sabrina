@@ -184,7 +184,7 @@ div .icon {
 .content .content-overlay {
   background: var(--img-hover-bg);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
