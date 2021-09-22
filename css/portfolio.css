@@ -129,6 +129,7 @@ div .icon {
   transform: rotate(-90deg);
   float: left;
   color: var(--main-btn-bg);
+  margin-top: 154px;
 }
 .content-hero .icon {
   padding: 0px;
@@ -316,6 +317,9 @@ footer .social-links a:hover {
   }
   .content-hero h1 {
     font-size: 34px;
+  }
+  .content-hero .skills-icons {
+    margin-top: 100px;
   }
 
   footer .email-link {
