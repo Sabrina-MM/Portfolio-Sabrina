@@ -49,10 +49,13 @@ div .icon {
 
 .hero {
   text-align: center;
-  background: #f8f9fa;
-  /*  background: url(/img/background.jpg) top center; */
+  /*  background: #f8f9fa; */
+  background: url(/img/background.jpeg);
   padding: 180px 20px;
   line-height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 .hero small {
   font-family: var(--secondary-font-family);
@@ -63,12 +66,14 @@ div .icon {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   color: var(--primary-color);
+  color: white;
 }
 .hero h1 {
   font-size: 70px;
   font-family: var(--primary-font-family);
   font-weight: bold;
   margin: 0px;
+  color: white;
 }
 .hero h2 {
   font-family: var(--secondary-font-family);
@@ -262,12 +267,17 @@ footer .contact-box {
   background: var(--secondary-bg-color);
   padding: 30px 120px;
 }
+footer .contact-box p {
+  font-size: 20px;
+}
+
 footer h3 {
   font-size: 48px;
   font-family: var(--primary-font-family);
   font-weight: bold;
 }
-footer div p,
+
+footer,
 .second-footer {
   font-size: 18px;
   font-family: var(--secondary-font-family);
@@ -311,6 +321,7 @@ footer .social-links a:hover {
     text-align: center;
     padding: 23px 20px;
   }
+
   .content-hero {
     text-align: center;
     padding: 100px 20px 10px;
